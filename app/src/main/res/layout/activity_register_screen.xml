@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="128dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="@string/register_username_hint"
+        android:inputType="text" />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/register_email_hint"
+        android:inputType="text" />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/register_password_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/register_password_confirm_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        style="@style/button_style"
+        android:layout_marginTop="40dp"
+        android:text="@string/register_button_text" />
+
+</LinearLayout>

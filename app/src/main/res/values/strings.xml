@@ -3,4 +3,18 @@
     <string name="content_description_splash_screen">app image</string>
     <string name="register_button_text">register</string>
     <string name="login_button_text">login</string>
+    <string name="register_username_hint">Enter Username</string>
+    <string name="register_email_hint">Enter a valid e-mail</string>
+    <string name="register_password_hint">Enter a password</string>
+    <string name="register_password_confirm_hint">Confirm your password</string>
+    <string name="save_credentials_login_text">Save username and password</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_username_hint">Username</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>
