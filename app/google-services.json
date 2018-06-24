@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "657726871553",
+    "firebase_url": "https://booklend-20deb.firebaseio.com",
+    "project_id": "booklend-20deb",
+    "storage_bucket": "booklend-20deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657726871553:android:740061dc0ae9d1a4",
+        "android_client_info": {
+          "package_name": "joao.projetos.booklend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657726871553-d1o0n36ajfph7plpl53hmdf2d5fgdagu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "joao.projetos.booklend",
+            "certificate_hash": "65b971d9aeadbc4a3c98f5fbc7b7818ce4e16255"
+          }
+        },
+        {
+          "client_id": "657726871553-j34cd6r8fcdqoscujd1jklrbc2osce12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOtip6CNguhcBBkPj9hv8Dsv6sQF6Suvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657726871553-j34cd6r8fcdqoscujd1jklrbc2osce12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

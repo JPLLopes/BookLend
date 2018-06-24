@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@+id/book_cover_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/add_book_list_item_book_cover_image"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/book_cover_image"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/book_authors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_title"
+        android:layout_toEndOf="@id/book_cover_image"
+        android:maxLines="1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/is_it_lent"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/book_authors"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/book_cover_image"
+        android:maxLines="1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/book_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/is_it_lent"
+        android:layout_toEndOf="@id/book_cover_image"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/book_authors"
+        android:layout_marginEnd="24dp">
+
+        <Button
+            android:id="@+id/remove_book_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded_corner"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="8dp"
+            android:text="@string/remove_book_from_library_button_text"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+</RelativeLayout>

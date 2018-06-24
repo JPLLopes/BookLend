@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard_menu_my_books"
+        android:enabled="true"
+        android:icon="@drawable/dashboard_mybooks_menu_item"
+        android:title="@string/dashboard_my_books" />
+    <item
+        android:id="@+id/dashboard_menu_requests"
+        android:enabled="true"
+        android:icon="@drawable/dashboard_requests_menu_item"
+        android:title="@string/dashboard_requests" />
+    <item
+        android:id="@+id/dashboard_menu_add_books"
+        android:enabled="true"
+        android:icon="@drawable/dashboard_add_book_menu_item"
+        android:title="@string/dashboard_add_book" />
+
+    <item
+        android:id="@+id/dashboard_menu_search_lenders"
+        android:enabled="true"
+        android:icon="@drawable/dashboard_search_lenders_menu_item"
+        android:title="@string/dashboard_search_lenders" />
+
+</menu>

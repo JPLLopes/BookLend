@@ -1,20 +1,35 @@
 <resources>
+    <!-- Splash screen string resources -->
     <string name="app_name">BookLend</string>
     <string name="content_description_splash_screen">app image</string>
     <string name="register_button_text">register</string>
     <string name="login_button_text">login</string>
+
+    <!-- Register screen string resources -->
+    <string name="register_screen_header">Register</string>
     <string name="register_username_hint">Enter Username</string>
     <string name="register_email_hint">Enter a valid e-mail</string>
-    <string name="register_password_hint">Enter a password</string>
+    <string name="register_password_hint">Password</string>
     <string name="register_password_confirm_hint">Confirm your password</string>
-    <string name="save_credentials_login_text">Save username and password</string>
+
+    <!-- Login screen string resrouces -->
+    <string name="login_email_hint">E-mail</string>
     <string name="login_password_hint">Password</string>
-    <string name="login_username_hint">Username</string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="save_credentials_login_text">Save username and password</string>
+
+    <!-- Dashboard menu string resources -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_my_books">Library</string>
+    <string name="dashboard_requests">Requests</string>
+    <string name="dashboard_add_book">Add Book</string>
+    <string name="login_screen_header">Login</string>
+    <string name="search_fragment_search_view">Search Book</string>
+    <string name="dashboard_search_lenders">Search Lenders</string>
+    <string name="add_book_list_item_book_cover_image">Book Cover Image</string>
+    <string name="add_book_to_library">Add</string>
+    <string name="add_book_search_button_text">Search</string>
+    <string name="add_book_search_query_hint">Search Book</string>
+    <string name="remove_book_from_library_button_text">Remove</string>
+    <string name="search_lenders_request_button_text">Request</string>
+
 </resources>

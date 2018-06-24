@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="joao.projetos.booklend">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/booklend_app_image"
@@ -9,14 +12,16 @@
         android:roundIcon="@drawable/booklend_app_image"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterScreen">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginScreen" />
+        <activity android:name=".LoginScreenActivity" />
+        <activity android:name=".RegisterScreenActivity" />
+        <activity android:name=".DashboardActivity"/>
     </application>
 
 </manifest>
